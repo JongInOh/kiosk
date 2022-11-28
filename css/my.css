@@ -1,0 +1,79 @@
+.section {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+span {
+	font-size: 1.25rem;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+.border {
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+	padding: 1.5rem;
+	width: 100%;
+	background-clip: border-box;
+	background-color: #fff;
+	text-align: center;
+	letter-spacing: 4rem;
+}
+.total {
+	display: grid;
+}
+.bi-trash {
+	border: none;
+}
+.textcenter {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	text-align: center;
+}
+
+.menu-btn {
+	width: 150px;
+}
+
+/* popup */
+#pop {
+	display: none;
+	width: 400px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	margin: -250px 0 0 -250px;
+	background-color: #fff;
+	z-index: 2;
+}
+
+.pop-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 2px solid rgba(0, 0, 0, 125);
+}
+.br15 {
+	border-radius: 1.5rem;
+}
+.close {
+	right: 1rem;
+	border: none;
+	font-size: 2rem;
+}
+
+.grid111 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+
+/* ADE&JUICE */
+.ADE {
+	opacity: 1;
+}
