@@ -96,10 +96,6 @@ $(document).ready(function () {
 		$('.ESPRESSO').show();
 	});
 
-	$('.fa-cart-plus').on('.click', function () {
-		$('.');
-	});
-
 	// POPUP
 	$('.mt-auto').on('click', function () {
 		$('section').animate({ opacity: '0.5' }, 0);
