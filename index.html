@@ -53,7 +53,7 @@
 		<header class="bg-dark py-5">
 			<div class="container px-4 px-lg-5 my-5">
 				<div class="text-center text-white">
-					<h1 class="display-4 fw-bolder">Welcome to my kiosk</h1>
+					<h1 class="display-4 fw-bolder"></h1>
 					<p class="lead fw-normal text-white-50 mb-0">With this to on kiosk</p>
 				</div>
 			</div>
@@ -393,9 +393,10 @@
 								><i class="bi-cart-fill me-1"></i>주문내역</span
 							>
 						</div>
-						<div class="h-100 cart">
-							<div class="col mb-2 mt-2">
-								<div class="card cart-flex">
+						<!-- cartList -->
+						<ul class="h-100 cart">
+							<!-- <div class="col mb-2 mt-2"> -->
+								<li class="card cart-flex">
 									<!-- cart image-->
 									<img
 										class="cart-img-top"
@@ -423,17 +424,17 @@
 									<button class="btn-x-cart close-cart">
 										<i class="fa-solid fa-xmark"></i>
 									</button>
-								</div>
-							</div>
-						</div>
+								</li>
+							<!-- </div> -->
+						</ul>
 						<!-- total-->
 						<div class="total pb-2">
 							<span class="fw-bolder">총수량:</span>
-							<span class="fw-bolder">0개</span>
+							<span class="fw-bolder totalitem">0개</span>
 						</div>
 						<div class="total mb-2">
 							<span class="fw-bolder">총금액:</span>
-							<span class="fw-bolder">0원</span>
+							<span class="fw-bolder totalprice">0원</span>
 						</div>
 						<div class="textcenter">
 							<span class="fw-bolder">
@@ -746,11 +747,11 @@
 						</div>
 						<div class="total pb-2">
 							<span class="fw-bolder">총수량:</span>
-							<span>0개</span>
+							<span class="total">0개</span>
 						</div>
 						<div class="total mb-2">
 							<span class="fw-bolder">총금액:</span>
-							<span>0원</span>
+							<span class="totalprice">0원</span>
 						</div>
 						<div class="textcenter">
 							<span class="fw-bolder">
@@ -848,5 +849,6 @@
 		<!-- Core theme JS-->
 		<script src="js/jquery-3.6.1.min.js"></script>
 		<script src="js/scripts.js"></script>
+		<script src="js/cart.js"></script>
 	</body>
 </html>
