@@ -4,7 +4,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_215.png",
 		"alt": "",
 		"name": "아메리카노",
-		"price": "￦3,500",
+		"price": "￦3500",
 		"value": 3500
 	},
 	{
@@ -12,7 +12,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_212.png",
 		"alt": "",
 		"name": "카페라떼",
-		"price": "￦3,800",
+		"price": "￦3800",
 		"value": 3800
 	},
 	{
@@ -20,7 +20,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_216.png",
 		"alt": "",
 		"name": "카라멜마키아또",
-		"price": "￦4,000",
+		"price": "￦4000",
 		"value": 1500
 	},
 	{
@@ -28,7 +28,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_213.png",
 		"alt": "",
 		"name": "카페모카",
-		"price": "￦4,000",
+		"price": "￦4000",
 		"value": 4000
 	},
 	{
@@ -36,7 +36,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_209.png",
 		"alt": "",
 		"name": "콜드브루",
-		"price": "￦4,000",
+		"price": "￦4000",
 		"value": 1500
 	},
 	{
@@ -44,7 +44,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_208.png",
 		"alt": "",
 		"name": "콜드브루라떼",
-		"price": "￦4,500",
+		"price": "￦4500",
 		"value": 4500
 	},
 	{
@@ -52,7 +52,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_203.png",
 		"alt": "",
 		"name": "콜드브루토닉",
-		"price": "￦4,800",
+		"price": "￦4800",
 		"value": 4800
 	},
 	{
@@ -60,7 +60,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_207.png",
 		"alt": "",
 		"name": "아이스크림라떼",
-		"price": "￦4,800",
+		"price": "￦4800",
 		"value": 4800
 	},
 	{
@@ -68,7 +68,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_103.png",
 		"alt": "",
 		"name": "자몽에이드",
-		"price": "￦4,000",
+		"price": "￦4000",
 		"value": 400
 	},
 	{
@@ -76,7 +76,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_104.png",
 		"alt": "",
 		"name": "라즈베리에이드",
-		"price": "￦4,000",
+		"price": "￦4000",
 		"value": 4000
 	},
 	{
@@ -84,7 +84,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_105.png",
 		"alt": "rainbow",
 		"name": "오렌지에이드",
-		"price": "￦4,000",
+		"price": "￦4000",
 		"value": 4000
 	},
 	{
@@ -92,7 +92,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_106.png",
 		"alt": "",
 		"name": "라임레몬에이드",
-		"price": "￦4,000",
+		"price": "￦4000",
 		"value": 4000
 	},
 	{
@@ -100,7 +100,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_107.png",
 		"alt": "",
 		"name": "오렌지자몽주스",
-		"price": "￦4,000",
+		"price": "￦4000",
 		"value": 4000
 	},
 	{
@@ -108,7 +108,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_108.png",
 		"alt": "",
 		"name": "키위바나나주스",
-		"price": "￦4,000",
+		"price": "￦4000",
 		"value": 4000
 	},
 	{
@@ -116,7 +116,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_101.png",
 		"alt": "",
 		"name": "딸기초콜릿라떼",
-		"price": "￦4,800",
+		"price": "￦4800",
 		"value": 4800
 	},
 	{
@@ -124,7 +124,7 @@
 		"img": "https://jypd.github.io/prj_02/twosome/img/menu/mb_102.png",
 		"alt": "",
 		"name": "딸기라떼",
-		"price": "￦4,500",
+		"price": "￦4500",
 		"value": 4500
 	}
 ]

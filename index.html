@@ -394,7 +394,7 @@
 							>
 						</div>
 						<!-- cartList -->
-						<ul class="h-100 cart">
+						<ul class="h-100 cart-list">
 							<!-- <div class="col mb-2 mt-2"> -->
 								<li class="card cart-flex">
 									<!-- cart image-->
@@ -430,11 +430,11 @@
 						<!-- total-->
 						<div class="total pb-2">
 							<span class="fw-bolder">총수량:</span>
-							<span class="fw-bolder totalitem">0개</span>
+							<input type="text" class="fw-bolder total-item" id="total-item" value="0개" />
 						</div>
 						<div class="total mb-2">
 							<span class="fw-bolder">총금액:</span>
-							<span class="fw-bolder totalprice">0원</span>
+							<input type="text" class="fw-bolder total-price" id="total-price" value="0원" />
 						</div>
 						<div class="textcenter">
 							<span class="fw-bolder">
@@ -747,11 +747,11 @@
 						</div>
 						<div class="total pb-2">
 							<span class="fw-bolder">총수량:</span>
-							<span class="total">0개</span>
+							<span class="total-item">0개</span>
 						</div>
 						<div class="total mb-2">
 							<span class="fw-bolder">총금액:</span>
-							<span class="totalprice">0원</span>
+							<span class="total-price">0원</span>
 						</div>
 						<div class="textcenter">
 							<span class="fw-bolder">
@@ -794,7 +794,6 @@
 				<div class="card-body p-4">
 					<div class="text-center">
 						<!-- Product name-->
-						
 						<h5 class="menu-Pname fw-bolder"></h5>
 						<!-- Product price-->
 						<p class="menu-Pprice"></p>

@@ -21,26 +21,6 @@ $(document).ready(function () {
 		},
 	});
 
-	// 수량
-	$('.minus').on('click', function () {
-		let $result = $(this).next();
-		let count = Number($result.text());
-
-		count--;
-		if (count < 0) {
-			count = 0;
-		}
-		$result.text(count);
-	});
-
-	$('.plus').on('click', function () {
-		let $result = $(this).prev();
-		let count = Number($result.text());
-
-		count++;
-		$result.text(count);
-	});
-
 	// 메뉴바
 	$('.M-ADE').on('click', function () {
 		$('.ESPRESSO').hide();
@@ -57,6 +37,8 @@ $(document).ready(function () {
 		$('section').animate({ opacity: '0.5' }, 0);
 		$('#pop').show();
 		var idx = $('.mt-auto').index($(this));
+		var totalprice = parseInt($('.menu-Pprice').text().replace('￦', ''));
+		// console.log(price);
 		$.ajax({
 			url: 'js/item.json',
 			dataType: 'json',
@@ -66,11 +48,57 @@ $(document).ready(function () {
 				$('.menu-Pprice').text(data[idx]['price']);
 			},
 		});
-	});
 
-	$('.close').on('click', function () {
-		$('section').animate({ opacity: '1' }, 0);
-		$('#pop').hide();
-		$;
+		// 수량
+		// var totalprice = val($('.menu-Pprice'));
+		$('.minus').on('click', function () {
+			let $result = $(this).next();
+			let count = Number($result.text());
+			// let sum = 0;
+			const totalitem = 0;
+			// var totalprice = $(this).val();
+
+			count--;
+			if (count < 0) {
+				count = 0;
+			}
+			$result.text(count);
+			$('#total-item').val(totalitem);
+			// console.log(totalprice);
+			// $('#total-price').val(totalprice);
+			// sum += parseInt($('.menu-price').val()) * parseInt($('.menu-item').val());
+			// console.log('price', parseInt($('.menu-price').val()));
+			// console.log('price', parseInt($('.menu-item').val()));
+			// console.log(totalitem);
+		});
+
+		$('.plus').on('click', function () {
+			let $result = $(this).prev();
+			let count = Number($result.text());
+			const totalitem = count;
+			// var totalprice = $(this).val();
+			// const totalprice = $(this).val();
+			count++;
+			$result.text(count);
+			// console.log(totalprice);
+			$('#total-item').empty().val(totalitem);
+			// $('#total-price').empty().val(totalprice);
+			// // sum += parseInt($('.menu-price').val()) * parseInt($('.menu-item').val());
+			// console.log('price', parseInt($('.menu-price').val()));
+			// console.log('price', parseInt($('.menu-item').val()));
+			// console.log(totalitem);
+		});
+		console.log(totalprice);
+		var countbtn = $('.grid111');
+		console.log(countbtn);
+		$('.close').on('click', function () {
+			$('section').animate({ opacity: '1' }, 0);
+			$('#pop').hide();
+
+			$('.d-flexbt').append(countbtn);
+		});
+
+		// cartlist = "<li></li>"
+		// $('.cart-list>li').append('');
 	});
 });
